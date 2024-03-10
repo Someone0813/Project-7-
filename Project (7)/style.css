@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1024px;
+}
+.Ping{
+    width: 90px;
+    height: 39px;
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.78px;
+    color: #15202A;
+}
+.Ping span{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38.78px;
+    color: #4C7BF3;
+}
+.Soon{
+    width: 712px;
+    height: 60px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #969696;
+}
+.Soon span{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #15202A;
+}
+.Sub{
+    width: 243px;
+    height: 24px;
+    margin-top: 16px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.24px;
+    text-align: center;
+    color: #15202A;
+}
+.Email{
+    width: 637px;
+    height: 56px;
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}
+.Input{
+    width: 421px;
+    height: 56px;
+    border-radius: 50px;
+    border: 1px solid #C2D3FF;
+    padding: 30px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #15202A;
+    box-shadow: 0px 0px 7px 3px #00000000;
+
+}
+.Input:focus{
+    border: 1px solid #C2D3FF;
+}
+.Input::placeholder{
+    color: #B8C7ED;
+}
+.Input2{
+    width: 200px;
+    height: 56px;
+    border-radius: 50px;
+    background-color: #4C7BF3;
+    box-shadow: 0px 5px 10px 2px #4C7BF33B;
+    border: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Input2:active{
+    background-color: #4c7bf3b5;
+    color: #ffffffaf;
+}
+.Input2:valid{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.39px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0,2;
+}
+.Img{
+    width: 640px;
+    height: 383px;
+    margin-top: 94px;
+}
+.Foot{
+    width: 204px;
+    height: 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Links{
+    width: 120px;
+    height: 31px;
+    display: flex;
+    gap: 11.71px;
+    margin-top: 72px;
+}
+.Face{
+    width: 32px;
+    height: 31px;
+    border: 1px solid #4C7BF326;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4C7BF3;
+    font-weight: 700;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+    
+}
+.Face:active{
+    background-color: #4C7BF3;
+    color: #FFFFFF;
+}
+.foottx{
+    width: 203px;
+    height: 15px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.54px;
+    color: #969696;
+    margin-top: 25px;
+    
+}
